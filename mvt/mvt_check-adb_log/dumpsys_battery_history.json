@@ -1,0 +1,401 @@
+[
+    {
+        "time_elapsed": "+1s811ms",
+        "event": "start_job",
+        "uid": "1000",
+        "package_name": "com.android.providers.settings",
+        "service": "com.android.providers.settings/.WriteFallbackSettingsFilesJobService"
+    },
+    {
+        "time_elapsed": "+1s828ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings:CryptKeeper",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+1s876ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings:CryptKeeper",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+1s876ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+2s111ms",
+        "event": "end_job",
+        "uid": "1000",
+        "package_name": "com.android.providers.settings",
+        "service": "com.android.providers.settings/.WriteFallbackSettingsFilesJobService"
+    },
+    {
+        "time_elapsed": "+3s194ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3s194ms",
+        "event": "start_top",
+        "uid": "u0a69",
+        "package_name": "com.android.provision",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3s373ms",
+        "event": "end_top",
+        "uid": "u0a69",
+        "package_name": "com.android.provision",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3s373ms",
+        "event": "start_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+4s893ms",
+        "event": "start_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+5s060ms",
+        "event": "start_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+5s060ms",
+        "event": "end_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+5s305ms",
+        "event": "start_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+5s306ms",
+        "event": "end_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+5s309ms",
+        "event": "end_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+5s389ms",
+        "event": "start_job",
+        "uid": "u0a83",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+6s413ms",
+        "event": "start_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s464ms",
+        "event": "end_job",
+        "uid": "u0a63",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s567ms",
+        "event": "start_job",
+        "uid": "u0a54",
+        "package_name": "com.android.dialer",
+        "service": "com.android.dialer/com.android.voicemail.impl.StatusCheckJobService"
+    },
+    {
+        "time_elapsed": "+6s568ms",
+        "event": "start_job",
+        "uid": "u0a51",
+        "package_name": "com.android.imsserviceentitlement",
+        "service": "com.android.imsserviceentitlement/.fcm.FcmRegistrationService"
+    },
+    {
+        "time_elapsed": "+6s572ms",
+        "event": "end_job",
+        "uid": "u0a54",
+        "package_name": "com.android.dialer",
+        "service": "com.android.dialer/com.android.voicemail.impl.StatusCheckJobService"
+    },
+    {
+        "time_elapsed": "+6s591ms",
+        "event": "end_job",
+        "uid": "u0a51",
+        "package_name": "com.android.imsserviceentitlement",
+        "service": "com.android.imsserviceentitlement/.fcm.FcmRegistrationService"
+    },
+    {
+        "time_elapsed": "+6s682ms",
+        "event": "start_job",
+        "uid": "u0a79",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.hibernation.HibernationJobService"
+    },
+    {
+        "time_elapsed": "+6s685ms",
+        "event": "end_job",
+        "uid": "u0a79",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.hibernation.HibernationJobService"
+    },
+    {
+        "time_elapsed": "+6s827ms",
+        "event": "start_job",
+        "uid": "u0a74",
+        "package_name": "com.android.remoteprovisioner",
+        "service": "com.android.remoteprovisioner/.PeriodicProvisioner"
+    },
+    {
+        "time_elapsed": "+7s086ms",
+        "event": "start_job",
+        "uid": "u0a17",
+        "package_name": "com.android.statementservice",
+        "service": "com.android.statementservice/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+7s092ms",
+        "event": "end_job",
+        "uid": "u0a17",
+        "package_name": "com.android.statementservice",
+        "service": "com.android.statementservice/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+7s187ms",
+        "event": "end_job",
+        "uid": "u0a74",
+        "package_name": "com.android.remoteprovisioner",
+        "service": "com.android.remoteprovisioner/.PeriodicProvisioner"
+    },
+    {
+        "time_elapsed": "+7s215ms",
+        "event": "end_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+7s215ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+7s239ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+7s239ms",
+        "event": "start_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+7s269ms",
+        "event": "start_job",
+        "uid": "u0a65",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+7s287ms",
+        "event": "end_job",
+        "uid": "u0a65",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+8s535ms",
+        "event": "end_job",
+        "uid": "u0a83",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+11s786ms",
+        "event": "start_job",
+        "uid": "u0a16",
+        "package_name": "com.android.providers.calendar",
+        "service": "com.android.providers.calendar/.CalendarProviderJobService"
+    },
+    {
+        "time_elapsed": "+11s788ms",
+        "event": "end_job",
+        "uid": "u0a16",
+        "package_name": "com.android.providers.calendar",
+        "service": "com.android.providers.calendar/.CalendarProviderJobService"
+    },
+    {
+        "time_elapsed": "+8m01s077ms",
+        "event": "end_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+8m01s164ms",
+        "event": "start_top",
+        "uid": "u0a55",
+        "package_name": "org.chromium.webview_shell",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+8m01s413ms",
+        "event": "start_job",
+        "uid": "u0a58",
+        "package_name": "com.android.webview",
+        "service": "com.android.webview/org.chromium.android_webview.services.AwVariationsSeedFetcher"
+    },
+    {
+        "time_elapsed": "+8m01s575ms",
+        "event": "end_job",
+        "uid": "u0a58",
+        "package_name": "com.android.webview",
+        "service": "com.android.webview/org.chromium.android_webview.services.AwVariationsSeedFetcher"
+    },
+    {
+        "time_elapsed": "+11m01s614ms",
+        "event": "start_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    },
+    {
+        "time_elapsed": "+11m02s321ms",
+        "event": "end_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    },
+    {
+        "time_elapsed": "+11m45s405ms",
+        "event": "end_top",
+        "uid": "u0a55",
+        "package_name": "org.chromium.webview_shell",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+11m45s888ms",
+        "event": "start_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+15m21s107ms",
+        "event": "end_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+15m21s138ms",
+        "event": "start_top",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+15m21s428ms",
+        "event": "start_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m22s127ms",
+        "event": "end_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m24s448ms",
+        "event": "start_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m24s550ms",
+        "event": "end_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m26s521ms",
+        "event": "start_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m26s623ms",
+        "event": "end_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m27s125ms",
+        "event": "end_top",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+15m27s125ms",
+        "event": "start_top",
+        "uid": "u0a70",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+15m27s835ms",
+        "event": "start_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    },
+    {
+        "time_elapsed": "+15m28s106ms",
+        "event": "end_job",
+        "uid": "u0a85",
+        "package_name": "org.mozilla.firefox",
+        "service": "org.mozilla.firefox/androidx.work.impl.background.systemjob.SystemJobService"
+    }
+]

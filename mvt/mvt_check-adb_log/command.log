@@ -1,0 +1,326 @@
+2025-06-16 14:08:19,599 - mvt.android.cmd_check_adb - WARNING - No indicators file exists at path /home/upgautam/.local/share/mvt/indicators
+2025-06-16 14:08:19,600 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2
+2025-06-16 14:08:19,641 - mvt.android.cmd_check_adb - DEBUG - Extracted 1549 indicators for collection with name "Pegasus"
+2025-06-16 14:08:19,642 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_intellexa_predator_predator.stix2
+2025-06-16 14:08:19,648 - mvt.android.cmd_check_adb - DEBUG - Extracted 562 indicators for collection with name "Predator"
+2025-06-16 14:08:19,649 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2022-06-23_rcs_lab_rcs.stix2
+2025-06-16 14:08:19,649 - mvt.android.cmd_check_adb - DEBUG - Extracted 40 indicators for collection with name "RCSLab"
+2025-06-16 14:08:19,649 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AssoEchap_stalkerware-indicators_master_generated_stalkerware.stix2
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 798 indicators for collection with name "TheTruthSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 187 indicators for collection with name "HelloSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "SpyAdvice"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 99 indicators for collection with name "Reptilicus"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 23 indicators for collection with name "PhoneSheriff"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 19 indicators for collection with name "OwnSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 192 indicators for collection with name "Cocospy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 11 indicators for collection with name "VIPTrack"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 85 indicators for collection with name "EasyLogger"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 119 indicators for collection with name "Hoverwatch"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 32 indicators for collection with name "LetMeSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 46 indicators for collection with name "Snoopza"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 41 indicators for collection with name "TrackMyPhones"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 139 indicators for collection with name "FlexiSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 124 indicators for collection with name "Cerberus"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 252 indicators for collection with name "mSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 113 indicators for collection with name "MeuSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 46 indicators for collection with name "AppSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 144 indicators for collection with name "MobileTrackerFree"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 34 indicators for collection with name "iKeyMonitor"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 13 indicators for collection with name "PanSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "AndroidLost"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "Metasploit"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 20 indicators for collection with name "Spy24"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 53 indicators for collection with name "CatWatchful"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 91 indicators for collection with name "HighsterMobile"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 15 indicators for collection with name "iMonitorSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 44 indicators for collection with name "MobileTool"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 28 indicators for collection with name "ShadowSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 49 indicators for collection with name "SpyHuman"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 18 indicators for collection with name "uMobix"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "Spymie"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 28 indicators for collection with name "TheOneSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 12 indicators for collection with name "ClevGuard"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 535 indicators for collection with name "EasyPhoneTrack"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "bark"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 16 indicators for collection with name "SpyLive360"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 28 indicators for collection with name "XNSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "MobiSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 51 indicators for collection with name "NeoSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 99 indicators for collection with name "AllTracker"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 231 indicators for collection with name "SpyPhoneApp"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 81 indicators for collection with name "AndroidMonitor"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 14 indicators for collection with name "TalkLog"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 19 indicators for collection with name "SpyMasterPro"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 48 indicators for collection with name "FreeAndroidSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "NetSpy"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "Spyier"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "CouplerTracker"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "GPSTrackerLoki"
+2025-06-16 14:08:20,213 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "SpyApp247"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "SpyMug"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "WtSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "Xnore"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 20 indicators for collection with name "EspiaoAndroid"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 42 indicators for collection with name "pcTattletale"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "SpyEra"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "AntiFurtoDroid"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 17 indicators for collection with name "CallSMSTracker"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 14 indicators for collection with name "AiSpyer"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "SpyToApp"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "BlurSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "AppMia"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "SecretCamRecorder"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 15 indicators for collection with name "Unisafe"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 72 indicators for collection with name "TrackView"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 11 indicators for collection with name "TrackingSmartphone"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "SpyphoneMobileTracker"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "OneLocator"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 25 indicators for collection with name "EvaSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "RealtimeSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 37 indicators for collection with name "jjspy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 278 indicators for collection with name "AndroidSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 70 indicators for collection with name "AndroidPolice"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "FindMyPhone"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "Bulgok"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 50 indicators for collection with name "Tracku"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 76 indicators for collection with name "KidsShield"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "NemoSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "SpyKontrol"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 120 indicators for collection with name "Trackplus"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "MobileSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 37 indicators for collection with name "WebWatcher"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "NexSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "juju"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "mSpyitaly"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 11 indicators for collection with name "MyCellSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "Spylix"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 26 indicators for collection with name "MonitorUltra"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "SentryPC"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "TheWiSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "Observer"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 22 indicators for collection with name "Mrecorder"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "PhoneSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "ShadySpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 39 indicators for collection with name "AbsoluTrack"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "SmartKeylogger"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 27 indicators for collection with name "Traccar"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "SpyNote"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "FlashKeylogger"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 182 indicators for collection with name "MobiStealth"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "SMSForward"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "Ahmyth"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "xHunter"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "SpyTec"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "SpyTek"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "BosSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "Fenced"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "RastreadorDeNamorado"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "Intertel"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "SpyFly"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "MocoSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "MzanziSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "RecomSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "SwiftMobileSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "Trackji"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "XDSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "XploitSPY"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "SpySMS"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "DroidWatcher"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "Spyzier"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "AndroidSpyApp"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "SpyDroid"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "SpyAppGhazi"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "Curiosus"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "LoveSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "ISpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "PatanSpyApp"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "Dash"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 42 indicators for collection with name "SpyApp"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "MySpyApps"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 35 indicators for collection with name "OneSpy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "Android007"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "RioSPY"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "WheresMyDroid"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "WiseMo"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "FindMyKids"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "MagMonitor"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 24 indicators for collection with name "BrunoEspiao"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 30 indicators for collection with name "Spyone"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "eagleSPY"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "PhoneMonitor"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "Buhsam"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "AndroRat"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 12 indicators for collection with name "WiseMo"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 15 indicators for collection with name "FamiSafe"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "KasperskySafeKids"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 17 indicators for collection with name "KidsControl"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 8 indicators for collection with name "FindMyKids"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "Accountable2you"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "ZoeMob"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 17 indicators for collection with name "Life360"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "MicrosoftFamilySafe"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 10 indicators for collection with name "GeoZilla"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 9 indicators for collection with name "KidsLox"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 4 indicators for collection with name "FamiShield"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "Qustodio"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "ScreenTime"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 7 indicators for collection with name "MMGuardian"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 1 indicators for collection with name "FlareFamilyLocator"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 5 indicators for collection with name "FamilyOrbit"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "Trulpe"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "Boomrang"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "MobileFence"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "Kidgy"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "Kiddoware"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 6 indicators for collection with name "Netnanny"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 2 indicators for collection with name "SeekDroid"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "LockItTight"
+2025-06-16 14:08:20,214 - mvt.android.cmd_check_adb - DEBUG - Extracted 3 indicators for collection with name "SafeNet"
+2025-06-16 14:08:20,217 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2023-03-29_android_campaign_malware.stix2
+2025-06-16 14:08:20,304 - mvt.android.cmd_check_adb - DEBUG - Extracted 2187 indicators for collection with name "MercenarySpywareCampaign"
+2025-06-16 14:08:20,304 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-04-11_quadream_kingspawn.stix2
+2025-06-16 14:08:20,306 - mvt.android.cmd_check_adb - DEBUG - Extracted 167 indicators for collection with name "KingSpawn"
+2025-06-16 14:08:20,306 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-06_01_operation_triangulation_operation_triangulation.stix2
+2025-06-16 14:08:20,307 - mvt.android.cmd_check_adb - DEBUG - Extracted 112 indicators for collection with name "OperationTriangulation"
+2025-06-16 14:08:20,307 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-07-25_wyrmspy_dragonegg_wyrmspy_dragonegg.stix2
+2025-06-16 14:08:20,308 - mvt.android.cmd_check_adb - DEBUG - Extracted 53 indicators for collection with name "WyrmSpy_DragonEgg"
+2025-06-16 14:08:20,308 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-05-02_wintego_helios_wintego_helios.stix2
+2025-06-16 14:08:20,309 - mvt.android.cmd_check_adb - DEBUG - Extracted 175 indicators for collection with name "Wintego Helios"
+2025-06-16 14:08:20,309 - mvt.android.cmd_check_adb - INFO - Parsing STIX2 indicators file at path /home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-12-16_serbia_novispy_novispy.stix2
+2025-06-16 14:08:20,309 - mvt.android.cmd_check_adb - DEBUG - Extracted 18 indicators for collection with name "NoviSpy"
+2025-06-16 14:08:20,309 - mvt.android.cmd_check_adb - INFO - Loaded a total of 10722 unique indicators
+2025-06-16 14:08:20,310 - mvt - INFO - Checking Android device over debug bridge
+2025-06-16 14:08:20,310 - mvt.android.modules.adb.chrome_history - INFO - Running module ChromeHistory...
+2025-06-16 14:08:20,804 - mvt.android.modules.adb.chrome_history - ERROR - Unable to download file /sdcard/tmp_NWiMBIYpLy: Command failed: open failed: No such file or directory
+2025-06-16 14:08:20,805 - mvt.android.modules.adb.chrome_history - INFO - The ChromeHistory module produced no detections!
+2025-06-16 14:08:20,805 - mvt.android.modules.adb.sms - INFO - Running module SMS...
+2025-06-16 14:08:21,305 - mvt.android.modules.adb.sms - ERROR - Error in running extraction from module SMS: Unable to download file /sdcard/tmp_laxvn1Mg2d: Command failed: open failed: No such file or directory
+Traceback (most recent call last):
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 219, in _adb_download
+    self.device.pull(remote_path, local_path, progress_callback)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 944, in pull
+    self._pull(device_path, stream, progress_callback, adb_info, filesync_info)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 969, in _pull
+    for cmd_id, _, data in self._filesync_read_until([constants.DATA], [constants.DONE], adb_info, filesync_info):
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 1433, in _filesync_read_until
+    cmd_id, header, data = self._filesync_read(expected_ids + finish_ids, adb_info, filesync_info)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 1372, in _filesync_read
+    raise exceptions.AdbCommandFailureException('Command failed: {}'.format(reason))
+adb_shell.exceptions.AdbCommandFailureException: Command failed: open failed: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 219, in _adb_download
+    self.device.pull(remote_path, local_path, progress_callback)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 944, in pull
+    self._pull(device_path, stream, progress_callback, adb_info, filesync_info)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 969, in _pull
+    for cmd_id, _, data in self._filesync_read_until([constants.DATA], [constants.DONE], adb_info, filesync_info):
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 1433, in _filesync_read_until
+    cmd_id, header, data = self._filesync_read(expected_ids + finish_ids, adb_info, filesync_info)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/adb_shell/adb_device.py", line 1372, in _filesync_read
+    raise exceptions.AdbCommandFailureException('Command failed: {}'.format(reason))
+adb_shell.exceptions.AdbCommandFailureException: Command failed: open failed: No such file or directory
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/common/module.py", line 171, in run_module
+    exec_or_profile("module.run()", globals(), locals())
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/common/utils.py", line 263, in exec_or_profile
+    exec(module, globals, locals)
+  File "<string>", line 1, in <module>
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/sms.py", line 159, in run
+    self._adb_process_file(
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 298, in _adb_process_file
+    self._adb_download(new_remote_path, local_path)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 222, in _adb_download
+    self._adb_download_root(remote_path, local_path, progress_callback)
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 261, in _adb_download_root
+    self._adb_download(
+  File "/home/upgautam/.local/share/pipx/venvs/mvt/lib/python3.12/site-packages/mvt/android/modules/adb/base.py", line 224, in _adb_download
+    raise Exception(
+Exception: Unable to download file /sdcard/tmp_laxvn1Mg2d: Command failed: open failed: No such file or directory
+2025-06-16 14:08:21,310 - mvt.android.modules.adb.whatsapp - INFO - Running module Whatsapp...
+2025-06-16 14:08:21,725 - mvt.android.modules.adb.whatsapp - ERROR - Unable to download file /sdcard/tmp_cTEqKBCb94: Command failed: open failed: No such file or directory
+2025-06-16 14:08:21,726 - mvt.android.modules.adb.whatsapp - INFO - The Whatsapp module produced no detections!
+2025-06-16 14:08:21,727 - mvt.android.modules.adb.processes - INFO - Running module Processes...
+2025-06-16 14:08:21,853 - mvt.android.modules.adb.processes - INFO - Extracted records on a total of 305 processes
+2025-06-16 14:08:21,886 - mvt.android.modules.adb.processes - INFO - The Processes module produced no detections!
+2025-06-16 14:08:21,888 - mvt.android.modules.adb.getprop - INFO - Running module Getprop...
+2025-06-16 14:08:22,013 - mvt.android.modules.adb.getprop - INFO - Extracted 483 Android system properties
+2025-06-16 14:08:22,013 - mvt.android.modules.adb.getprop - INFO - gsm.sim.operator.alpha: TelAlaska Cellular
+2025-06-16 14:08:22,014 - mvt.android.modules.adb.getprop - INFO - gsm.sim.operator.iso-country: us
+2025-06-16 14:08:22,014 - mvt.android.modules.adb.getprop - INFO - persist.sys.timezone: America/New_York
+2025-06-16 14:08:22,015 - mvt.android.modules.adb.getprop - INFO - ro.boot.serialno: CUTTLEFISHCVD011
+2025-06-16 14:08:22,015 - mvt.android.modules.adb.getprop - INFO - ro.build.version.sdk: 31
+2025-06-16 14:08:22,015 - mvt.android.modules.adb.getprop - INFO - ro.build.version.security_patch: 2023-01-01
+2025-06-16 14:08:22,016 - mvt.android.modules.adb.getprop - WARNING - This phone has not received security updates for more than six months (last update: 2023-01-01)
+2025-06-16 14:08:22,017 - mvt.android.modules.adb.getprop - INFO - ro.product.cpu.abi: x86_64
+2025-06-16 14:08:22,017 - mvt.android.modules.adb.getprop - INFO - ro.product.locale: en-US
+2025-06-16 14:08:22,018 - mvt.android.modules.adb.getprop - INFO - ro.product.vendor.manufacturer: Google
+2025-06-16 14:08:22,018 - mvt.android.modules.adb.getprop - INFO - ro.product.vendor.model: Cuttlefish x86_64 phone 64-bit only
+2025-06-16 14:08:22,018 - mvt.android.modules.adb.getprop - INFO - ro.product.vendor.name: aosp_cf_x86_64_only_phone
+2025-06-16 14:08:22,023 - mvt.android.modules.adb.getprop - INFO - The Getprop module produced no detections!
+2025-06-16 14:08:22,024 - mvt.android.modules.adb.settings - INFO - Running module Settings...
+2025-06-16 14:08:22,194 - mvt.android.modules.adb.settings - WARNING - Found suspicious "secure" setting "install_non_market_apps = 1" (enabled installation of non Google Play apps)
+2025-06-16 14:08:22,195 - mvt.android.modules.adb.settings - INFO - The Settings module produced no detections!
+2025-06-16 14:08:22,195 - mvt.android.modules.adb.selinux_status - INFO - Running module SELinuxStatus...
+2025-06-16 14:08:22,279 - mvt.android.modules.adb.selinux_status - INFO - SELinux is being regularly enforced
+2025-06-16 14:08:22,280 - mvt.android.modules.adb.selinux_status - INFO - The SELinuxStatus module does not support checking for indicators
+2025-06-16 14:08:22,281 - mvt.android.modules.adb.dumpsys_battery_history - INFO - Running module DumpsysBatteryHistory...
+2025-06-16 14:08:22,421 - mvt.android.modules.adb.dumpsys_battery_history - INFO - Extracted 57 records from battery history
+2025-06-16 14:08:22,427 - mvt.android.modules.adb.dumpsys_battery_history - INFO - The DumpsysBatteryHistory module produced no detections!
+2025-06-16 14:08:22,428 - mvt.android.modules.adb.dumpsys_battery_daily - INFO - Running module DumpsysBatteryDaily...
+2025-06-16 14:08:22,511 - mvt.android.modules.adb.dumpsys_battery_daily - INFO - Extracted 0 records from battery daily stats
+2025-06-16 14:08:22,512 - mvt.android.modules.adb.dumpsys_battery_daily - INFO - The DumpsysBatteryDaily module produced no detections!
+2025-06-16 14:08:22,512 - mvt.android.modules.adb.dumpsys_receivers - INFO - Running module DumpsysReceivers...
+2025-06-16 14:08:22,886 - mvt.android.modules.adb.dumpsys_receivers - INFO - Extracted receivers for 134 intents
+2025-06-16 14:08:22,903 - mvt.android.modules.adb.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.AbortSmsReceiver"
+2025-06-16 14:08:22,904 - mvt.android.modules.adb.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.SmsReceiver"
+2025-06-16 14:08:22,908 - mvt.android.modules.adb.dumpsys_receivers - INFO - Found a receiver monitoring outgoing calls: "com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"
+2025-06-16 14:08:22,909 - mvt.android.modules.adb.dumpsys_receivers - INFO - The DumpsysReceivers module produced no detections!
+2025-06-16 14:08:22,910 - mvt.android.modules.adb.dumpsys_activities - INFO - Running module DumpsysActivities...
+2025-06-16 14:08:24,346 - mvt.android.modules.adb.dumpsys_activities - INFO - Extracted 510 package activities
+2025-06-16 14:08:24,392 - mvt.android.modules.adb.dumpsys_activities - INFO - The DumpsysActivities module produced no detections!
+2025-06-16 14:08:24,394 - mvt.android.modules.adb.dumpsys_accessibility - INFO - Running module DumpsysAccessibility...
+2025-06-16 14:08:24,479 - mvt.android.modules.adb.dumpsys_accessibility - INFO - Identified a total of 0 accessibility services
+2025-06-16 14:08:24,480 - mvt.android.modules.adb.dumpsys_accessibility - INFO - The DumpsysAccessibility module produced no detections!
+2025-06-16 14:08:24,480 - mvt.android.modules.adb.dumpsys_dbinfo - INFO - Running module DumpsysDBInfo...
+2025-06-16 14:08:24,706 - mvt.android.modules.adb.dumpsys_dbinfo - INFO - Extracted a total of 560 records from database information
+2025-06-16 14:08:24,995 - mvt.android.modules.adb.dumpsys_dbinfo - INFO - The DumpsysDBInfo module produced no detections!
+2025-06-16 14:08:24,997 - mvt.android.modules.adb.dumpsys_adbstate - INFO - Running module DumpsysADBState...
+2025-06-16 14:08:25,082 - mvt.android.modules.adb.dumpsys_adbstate - INFO - Identified a total of 0 trusted ADB keys
+2025-06-16 14:08:25,083 - mvt.android.modules.adb.dumpsys_adbstate - INFO - The DumpsysADBState module produced no detections!
+2025-06-16 14:08:25,084 - mvt.android.modules.adb.dumpsys_full - INFO - Running module DumpsysFull...
+2025-06-16 14:08:30,500 - mvt.android.modules.adb.dumpsys_full - INFO - Full dumpsys output stored at /home/upgautam/mvt_check_adb.log/dumpsys.txt
+2025-06-16 14:08:30,501 - mvt.android.modules.adb.dumpsys_full - INFO - The DumpsysFull module does not support checking for indicators
+2025-06-16 14:08:30,501 - mvt.android.modules.adb.dumpsys_appops - INFO - Running module DumpsysAppOps...
+2025-06-16 14:08:30,627 - mvt.android.modules.adb.dumpsys_appops - INFO - Extracted a total of 27 records from app-ops manager
+2025-06-16 14:08:30,630 - mvt.android.modules.adb.dumpsys_appops - INFO - The DumpsysAppOps module produced no detections!
+2025-06-16 14:08:30,631 - mvt.android.modules.adb.packages - INFO - Running module Packages...
+2025-06-16 14:09:05,613 - mvt.android.modules.adb.packages - INFO - Found non-system package with name "org.mozilla.firefox" installed by "None" on 2025-06-16 13:40:56
+2025-06-16 14:09:05,616 - mvt.android.modules.adb.packages - INFO - Extracted at total of 116 installed package names
+2025-06-16 14:09:05,692 - mvt.android.modules.adb.packages - INFO - The Packages module produced no detections!
+2025-06-16 14:09:05,702 - mvt.android.modules.adb.logcat - INFO - Running module Logcat...
+2025-06-16 14:09:12,305 - mvt.android.modules.adb.logcat - INFO - Current logcat logs stored at /home/upgautam/mvt_check_adb.log/logcat.txt
+2025-06-16 14:09:12,305 - mvt.android.modules.adb.logcat - INFO - Logcat logs prior to last reboot stored at /home/upgautam/mvt_check_adb.log/logcat_last.txt
+2025-06-16 14:09:12,306 - mvt.android.modules.adb.logcat - INFO - The Logcat module does not support checking for indicators
+2025-06-16 14:09:12,306 - mvt.android.modules.adb.root_binaries - INFO - Running module RootBinaries...
+2025-06-16 14:09:13,096 - mvt.android.modules.adb.root_binaries - WARNING - Found root binary "su"
+2025-06-16 14:09:13,097 - mvt.android.modules.adb.files - INFO - Running module Files...
+2025-06-16 14:09:13,306 - mvt.android.modules.adb.files - INFO - Found file in tmp folder at path /data/local/tmp/fenix-110.0.1-x86_64.apk
+2025-06-16 14:09:19,940 - mvt.android.modules.adb.files - INFO - Downloaded file /data/local/tmp/fenix-110.0.1-x86_64.apk to local copy at /home/upgautam/mvt_check_adb.log/files/_data_local_tmp_fenix-110.0.1-x86_64.apk
+2025-06-16 14:09:20,106 - mvt.android.modules.adb.files - INFO - Found 9 files in primary Android tmp and media folders
+2025-06-16 14:09:20,107 - mvt.android.modules.adb.files - INFO - Processing full file listing. This may take a while...
+2025-06-16 14:09:33,843 - mvt.android.modules.adb.files - INFO - Found 102469 total files
+2025-06-16 14:09:34,068 - mvt.android.modules.adb.files - WARNING - Found an SUID file in a non-standard directory "/system/xbin/su".
+2025-06-16 14:09:35,515 - mvt.android.modules.adb.files - INFO - The Files module produced no detections!
+2025-06-16 14:09:36,257 - mvt.android.cmd_check_adb - INFO - Please disable Developer Options and ADB (Android Debug Bridge) on the device once finished with the acquisition. ADB is a powerful tool which can allow unauthorized access to the device.
+2025-06-16 14:09:36,258 - mvt.android.cmd_check_adb - WARNING - [bold]NOTE: Detected indicators of compromise[/bold]. Only expert review can confirm if the detected indicators are signs of an attack.
+
+Please seek reputable expert help if you have serious concerns about a possible spyware attack. Such support is available to human rights defenders and civil society through Amnesty International's Security Lab at https://securitylab.amnesty.org/get-help/?c=mvt
+2025-06-16 14:09:36,258 - mvt - WARNING - The analysis of the Android device produced 1 detections!
