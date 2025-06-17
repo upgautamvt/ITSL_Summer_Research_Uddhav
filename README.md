@@ -17,7 +17,4 @@ We will use this 2 months summer time for mostly Android security research.
 
 # Managed devices - Continuous device assessment, compliance checks, and on-device forensics (Our univeristy use-case)
 TODO: need to talk to Beth about this how University issue mobile devices to employees
-
-
-
-Gitlab VT: code.vt.edu (everybody use)
+Update: Waiting Beth's response

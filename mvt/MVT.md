@@ -1,5 +1,20 @@
 # Mobile Verification Toolkit
-Consensual forensics analysis of mobile devices to detect traces of compromise.
+Consensual forensics analysis of mobile devices to detect traces of compromise. 
+
+mvt-android can extract via adb: 
+1. dumpsys results - system services information (e.g,. battery, usage stats, etc.)
+   a. `adb shell dumpsys` or `adb shell dumpsys batterystats/activity/package`
+2. List of installed apps - without downloading the apps (just names, versions, permissions, etc.)
+   a. `adb shell pm list packages -f` or `adb shell dumpsys package <package>`
+3. Running processes - which apps or services are currently running
+   a. `adb shell ps -A` or `adb shell ps -ef`
+4. Presence of root binaries - to detect if the phone might be rooted (e.g., checking if su binary is present)
+   a. `adb shell which su` or `adb shell ls /system/bin/su` or `adb shell ls /system/xbin/su` or `adb shell find / -name su 2 > /dev/null`
+5. Suspicious package - like apps used in spyware or hacking. 
+6. Other Forensics checks 
+   a. `adb bugreport` or `adb logcat -d`
+
+Look for more adb cheatsheet to know more about adb.
 
 ## mvt-android
 For this, we test mvt-android in two scenario. 
@@ -174,6 +189,7 @@ Success
 ```
 
 Now, we can run 
+**Note**: check-adb requires root privileges.
 ```bash
 upgautam@amd:~/android-cuttlefish/cf$ mvt-android check-adb --serial 0.0.0.0:6520 --iocs /home/upgautam/.local/share/mvt/indicators
 ```
@@ -360,12 +376,88 @@ You could even save above log as ` mvt-android check-adb --serial 0.0.0.0:6520 -
          INFO     [mvt.android.modules.adb.settings] The Settings module produced no detections!        
 This is detection: `WARNING  [mvt.android.modules.adb.root_binaries] Found root binary "su"`
 
+#### Backup
+Running to back will prompt to allow or reject to user.
+```angular2html
+upgautam@amd:~/android-cuttlefish/cf$ adb backup -apk -shared -all -f backup.ab (or adb backup -apk -shared -all -f full_backup.ab)
+WARNING: adb backup is deprecated and may be removed in a future release
+Now unlock your device and confirm the backup operation...
+upgautam@amd:~/android-cuttlefish/cf$ ls backup.ab 
+backup.ab
+
+mvt checks against all the downloaded iocs stix2 files. You can also check against individual iocs file with --iocs 
+upgautam@amd:~/android-cuttlefish/cf$ mvt-android check-backup backup.ab
+
+
+MVT - Mobile Verification Toolkit
+https://mvt.re
+Version: 2.6.1
+Indicators updates checked recently, next automatic check in 12 hours
+
+
+15:19:54 INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_intellexa_predator_predator.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2022-06-23_rcs_lab_rcs.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AssoEchap_stalkerware-indicators_master_generated_stalkerware.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2023-03-29_android_campaign_malware.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-04-11_quadream_kingspawn.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-06_01_operation_triangulation_operation_triangulat
+ion.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-07-25_wyrmspy_dragonegg_wyrmspy_dragonegg.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-05-02_wintego_helios_wintego_helios.stix2
+INFO     [mvt.android.cmd_check_backup] Parsing STIX2 indicators file at path
+/home/upgautam/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-12-16_serbia_novispy_novispy.stix2
+INFO     [mvt.android.cmd_check_backup] Loaded a total of 10722 unique indicators
+INFO     [mvt] Checking Android backup at path: backup.ab
+INFO     [mvt.android.modules.backup.sms] Running module SMS...
+INFO     [mvt.android.modules.backup.sms] Extracted a total of 0 SMS & MMS messages
+INFO     [mvt.android.modules.backup.sms] The SMS module produced no detections!
+INFO      NOTE: Using MVT with public indicators of compromise (IOCs) WILL NOT automatically detect advanced attacks.
+
+Please seek reputable expert help if you have serious concerns about a possible spyware attack. Such support is available to human rights defenders and
+civil society through Amnesty International's Security Lab at https://securitylab.amnesty.org/get-help/?c=mvt      
+```
+
+#### Downloading apks (if downloadable); otherwise just ceated metadata
+
+```angular2html
+upgautam@amd:~/android-cuttlefish/cf$ adb shell pm list packages -3
+//it means there is 0 downloadable app (i.e., non-system apps)
+
+upgautam@amd:~/android-cuttlefish/cf$ mvt-android download-apks --output ~/apk/ --serial 0.0.0.0:6520
+
+
+        MVT - Mobile Verification Toolkit
+                https://mvt.re
+                Version: 2.6.1
+                Indicators updates checked recently, next automatic check in 12 hours
+
+
+15:45:39 INFO     [mvt.android.cmd_download_apks] Retrieving list of installed packages...                                                                                    
+Looking up 0 files... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   
+     VirusTotal Packages Detections      
+┏━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ Package name ┃ File path ┃ Detections ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━┩
+└──────────────┴───────────┴────────────┘
+15:46:13 INFO     [mvt.android.cmd_download_apks] Extracted at total of 115 installed package names                                                                           
+         INFO     [mvt.android.cmd_download_apks] Starting extraction of installed APKs at folder /home/upgautam/apk/                                                         
+         INFO     [mvt.android.cmd_download_apks] Selected only 0 packages which are not marked as "system"                                                                   
+         INFO     [mvt.android.cmd_download_apks] No packages were selected for download                                                                                      
+
+```
+
 I don't see any other mvt-android functionality is quite useful. Feel free to check more here: https://docs.mvt.re/en/latest/android/adb/
 
 ## Indicator of Compromise (IOC)
 MVT supports using indicators of compromise (IOCs) to scan mobile devices for potential traces of targeting or infection by known spyware campaigns. 
 This includes IOCs published by Amnesty International and other research groups. For example, we have Pegasus IOC here: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix2
-
-```json
-
-```
